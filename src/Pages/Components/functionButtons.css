@@ -1,0 +1,44 @@
+.functionMain {
+  position: absolute;
+  z-index: 10;
+  height: 40%;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.arrowImage > p {
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+  color: white;
+  border-radius: 50%;
+}
+.svg {
+  border: 3px solid #d6ad60;
+}
+.bottomSection {
+  padding: 5px;
+  font-size: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  background-color: #222639;
+  border-radius: 10px;
+  border: 2px solid #d6ad60;
+  padding: 0.5rem;
+}
+
+.popUpMain {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  width: 100%;
+  height: 700px;
+  justify-content: center;
+  align-content: center;
+}

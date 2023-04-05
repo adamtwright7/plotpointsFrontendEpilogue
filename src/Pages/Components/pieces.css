@@ -1,0 +1,64 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+.mainPieces {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+.topChar {
+  display: flex;
+  font-size: 20px;
+  gap: 10px;
+  border: 2px solid #d6ad60;
+  width: fit-content;
+  align-self: center;
+  background-color: #222639;
+  border-radius: 10px;
+  padding: 5px;
+  border-radius: 40px 40px 10px 10px;
+}
+.bottomPics {
+  width: 100%;
+  display: flex;
+  border: 2px solid #d6ad60;
+  padding: 0.5rem;
+  overflow-x: auto;
+  overflow-y: visible;
+
+  background-color: #222639;
+  border-radius: 40px 40px 40px 40px;
+}
+.imagesBottom {
+  width: 2rem;
+}
+.envButtons {
+  color: gold;
+}
+.popUpAdd {
+  position: absolute;
+  bottom: 2.5rem;
+  z-index: 15;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+.trashBottom {
+  position: relative;
+  right: 20px;
+  bottom: 8px;
+  height: fit-content;
+}
+@media screen and (min-width: 739px) {
+  .topChar {
+    font-size: 30px;
+  }
+  .bottomPics {
+    padding: 1rem;
+  }
+  .imagesBottom {
+    width: 3rem;
+  }
+}
